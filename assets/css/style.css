@@ -1,0 +1,33 @@
+body {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	background: url('../img/fundo.jpg') no-repeat fixed center;
+	background-size: cover;
+}
+
+.logo {
+    position: relative;
+    left: calc(50% - 227px);
+    top: calc(50% - 268px);
+    width: 450px;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+}
+
+	.links a {
+		font-family: Arial, Helvetica, sans-serif;
+	    color: #F9FBFB;
+	    text-decoration: none;
+	}
