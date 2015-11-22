@@ -30,6 +30,19 @@ body {
 		width: 450px;
 	}
 
+.copyright {
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+	.copyright span {
+		font-family: Arial;
+		font-size: 10px;
+		color: #ADD4E5;
+	}
+
 .links {
     width: 100%;
     text-align: center;
@@ -102,7 +115,7 @@ body {
 		}
 	
 	.links {
-		bottom: 30px;
+		bottom: 80px;
 	}
 
 		.links a {
@@ -116,6 +129,10 @@ body {
 	.acompanhe img {
 		width: 120px !important;
 	}
+
+	.copyright span {
+		font-size: 8px;
+	}
 }
 
 @media(max-width: 500px) {
@@ -125,4 +142,8 @@ body {
 		.logo img {
 			width: 200px;
 		}
+
+	.copyright span {
+		font-size: 8px;
+	}
 }
