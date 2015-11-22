@@ -52,11 +52,6 @@ body {
 	width: 200px !important;
 }
 
-@font-face {
-    font-family: 'cumulus';
-    src: url('../fonts/cumulus.ttf');
-}
-
 @media(min-width: 1600px){
 	.logo {
 		top: calc(50% - 324px);
