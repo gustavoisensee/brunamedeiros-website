@@ -38,10 +38,16 @@ body {
 }
 
 	.links a {
-		font-family: Arial, Helvetica, sans-serif;
 	    color: #F9FBFB;
 	    text-decoration: none;
         padding: 10px;
+	}
+
+	.links a > img:hover {
+		margin-bottom: -8px;
+	    border-bottom: 4px solid #ADD4E5;
+	    padding-bottom: 4px;
+	    border-radius: 0 0 4px 4px;
 	}
 
 	.links img {
