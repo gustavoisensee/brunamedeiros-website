@@ -15,7 +15,7 @@ body {
 .logo {
     position: relative;
     left: calc(50% - 227px);
-    top: calc(50% - 268px);
+    top: calc(50% - 280px);
     width: 450px;
 }
 
@@ -30,4 +30,65 @@ body {
 		font-family: Arial, Helvetica, sans-serif;
 	    color: #F9FBFB;
 	    text-decoration: none;
+        padding: 10px;
 	}
+
+	.links img {
+		width: 32px;
+	}
+
+@media(min-width: 1600px){
+	.logo {
+		left: calc(50% - 260px);
+		top: calc(50% - 324px);
+		width: 514px;
+	}
+
+	.links img {
+		width: 40px;
+	}
+}
+
+@media(max-width: 1024px) {
+	.logo {
+	   	left: calc(50% - 186px);
+	    top: calc(50% - 232px);
+	    width: 370px;
+	}
+}
+
+@media(max-width: 800px) {
+	.logo {
+       left: calc(50% - 151px);
+	    top: calc(50% - 185px);
+	    width: 300px;	
+	}
+
+	.links img {
+		width: 26px;
+	}
+}
+
+@media(max-width: 600px) {
+	.logo {
+	    left: calc(50% - 101px);
+    	top: calc(50% - 123px);
+    	width: 200px;
+	}
+	
+	.links a {
+		padding: 4px;
+	}
+
+	.links img {
+		width: 20px;
+	}
+}
+
+@media(max-width: 500px) {
+	.logo {
+        left: calc(50% - 101px);
+	    top: calc(50% - 162px);
+	    width: 200px;
+	}
+}
