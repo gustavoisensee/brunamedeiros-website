@@ -1,4 +1,4 @@
-body {
+body, html, #root {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -12,7 +12,7 @@ body {
 .container {
 	width: 100%;
 	height: 100%;
-	background: url('../img/fundo.jpg') no-repeat fixed center;
+	background: url('images/fundo.jpg') no-repeat fixed center;
 	background-size: cover;
 	text-align: center;
 }
